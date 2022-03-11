@@ -63,7 +63,11 @@
                     MessageBox.Show("No se puede dividir por cero!!");//Mediante este se presenta un aviso de que no se puede dividir por cero 
                 }
             }
-           
+            else if (Operador == 'H')
+            {
+                double hipotenusa = Math.Sqrt((Numero1 * Numero1) + (Numero2 * Numero2));
+                txtResultado.Text = hipotenusa.ToString();
+            }
         }
 
         private void btnQuitar_Click(object sender, EventArgs e)//Se crea una clase privada para el evento del boton quitar 
@@ -192,7 +196,12 @@
             else//Se crea una contracodición
             {
                 txtResultado.Text = "0";//El textbox txtResultado.Text se le asigna el simbolo 0
-            }        
+            }
+            if (Operador == 'L')
+            {
+                double logaritmo = Math.Log10(Numero1);
+                txtResultado.Text = logaritmo.ToString();
+            }
         }
 
     }

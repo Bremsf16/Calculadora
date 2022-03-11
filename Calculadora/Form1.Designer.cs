@@ -54,12 +54,14 @@
             this.txtUno = new System.Windows.Forms.TextBox();
             this.txtOperador = new System.Windows.Forms.TextBox();
             this.txtDos = new System.Windows.Forms.TextBox();
+            this.btnPitágoras = new System.Windows.Forms.Button();
+            this.btnLog = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtResultado
             // 
             this.txtResultado.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtResultado.Location = new System.Drawing.Point(10, 172);
+            this.txtResultado.Location = new System.Drawing.Point(7, 189);
             this.txtResultado.MaxLength = 18;
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
@@ -72,7 +74,7 @@
             // btnUno
             // 
             this.btnUno.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnUno.Location = new System.Drawing.Point(11, 461);
+            this.btnUno.Location = new System.Drawing.Point(11, 478);
             this.btnUno.Name = "btnUno";
             this.btnUno.Size = new System.Drawing.Size(70, 70);
             this.btnUno.TabIndex = 1;
@@ -83,7 +85,7 @@
             // btnDos
             // 
             this.btnDos.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDos.Location = new System.Drawing.Point(87, 461);
+            this.btnDos.Location = new System.Drawing.Point(87, 478);
             this.btnDos.Name = "btnDos";
             this.btnDos.Size = new System.Drawing.Size(70, 70);
             this.btnDos.TabIndex = 2;
@@ -94,7 +96,7 @@
             // btnTres
             // 
             this.btnTres.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTres.Location = new System.Drawing.Point(163, 461);
+            this.btnTres.Location = new System.Drawing.Point(163, 478);
             this.btnTres.Name = "btnTres";
             this.btnTres.Size = new System.Drawing.Size(70, 70);
             this.btnTres.TabIndex = 3;
@@ -105,7 +107,7 @@
             // btnCuatro
             // 
             this.btnCuatro.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCuatro.Location = new System.Drawing.Point(11, 385);
+            this.btnCuatro.Location = new System.Drawing.Point(11, 402);
             this.btnCuatro.Name = "btnCuatro";
             this.btnCuatro.Size = new System.Drawing.Size(70, 70);
             this.btnCuatro.TabIndex = 4;
@@ -116,7 +118,7 @@
             // btnCinco
             // 
             this.btnCinco.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCinco.Location = new System.Drawing.Point(87, 385);
+            this.btnCinco.Location = new System.Drawing.Point(87, 402);
             this.btnCinco.Name = "btnCinco";
             this.btnCinco.Size = new System.Drawing.Size(70, 70);
             this.btnCinco.TabIndex = 5;
@@ -127,7 +129,7 @@
             // btnSeis
             // 
             this.btnSeis.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSeis.Location = new System.Drawing.Point(163, 385);
+            this.btnSeis.Location = new System.Drawing.Point(163, 402);
             this.btnSeis.Name = "btnSeis";
             this.btnSeis.Size = new System.Drawing.Size(70, 70);
             this.btnSeis.TabIndex = 6;
@@ -138,7 +140,7 @@
             // btnSiete
             // 
             this.btnSiete.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSiete.Location = new System.Drawing.Point(11, 309);
+            this.btnSiete.Location = new System.Drawing.Point(11, 326);
             this.btnSiete.Name = "btnSiete";
             this.btnSiete.Size = new System.Drawing.Size(70, 70);
             this.btnSiete.TabIndex = 7;
@@ -149,7 +151,7 @@
             // btnOcho
             // 
             this.btnOcho.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnOcho.Location = new System.Drawing.Point(87, 309);
+            this.btnOcho.Location = new System.Drawing.Point(87, 326);
             this.btnOcho.Name = "btnOcho";
             this.btnOcho.Size = new System.Drawing.Size(70, 70);
             this.btnOcho.TabIndex = 8;
@@ -160,7 +162,7 @@
             // btnNueve
             // 
             this.btnNueve.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNueve.Location = new System.Drawing.Point(163, 309);
+            this.btnNueve.Location = new System.Drawing.Point(163, 326);
             this.btnNueve.Name = "btnNueve";
             this.btnNueve.Size = new System.Drawing.Size(70, 70);
             this.btnNueve.TabIndex = 9;
@@ -171,7 +173,7 @@
             // btnBorrar
             // 
             this.btnBorrar.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBorrar.Location = new System.Drawing.Point(11, 233);
+            this.btnBorrar.Location = new System.Drawing.Point(11, 250);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(70, 70);
             this.btnBorrar.TabIndex = 10;
@@ -182,7 +184,7 @@
             // btnBorrarTodo
             // 
             this.btnBorrarTodo.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBorrarTodo.Location = new System.Drawing.Point(87, 233);
+            this.btnBorrarTodo.Location = new System.Drawing.Point(87, 250);
             this.btnBorrarTodo.Name = "btnBorrarTodo";
             this.btnBorrarTodo.Size = new System.Drawing.Size(70, 70);
             this.btnBorrarTodo.TabIndex = 11;
@@ -193,7 +195,7 @@
             // btnQuitar
             // 
             this.btnQuitar.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnQuitar.Location = new System.Drawing.Point(163, 233);
+            this.btnQuitar.Location = new System.Drawing.Point(163, 250);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(70, 70);
             this.btnQuitar.TabIndex = 12;
@@ -204,7 +206,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMultiplicar.Location = new System.Drawing.Point(315, 309);
+            this.btnMultiplicar.Location = new System.Drawing.Point(315, 326);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(70, 70);
             this.btnMultiplicar.TabIndex = 15;
@@ -216,7 +218,7 @@
             // btnCuadrado
             // 
             this.btnCuadrado.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCuadrado.Location = new System.Drawing.Point(314, 233);
+            this.btnCuadrado.Location = new System.Drawing.Point(314, 250);
             this.btnCuadrado.Name = "btnCuadrado";
             this.btnCuadrado.Size = new System.Drawing.Size(70, 70);
             this.btnCuadrado.TabIndex = 14;
@@ -228,7 +230,7 @@
             // btnRaízCuadrada
             // 
             this.btnRaízCuadrada.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRaízCuadrada.Location = new System.Drawing.Point(239, 233);
+            this.btnRaízCuadrada.Location = new System.Drawing.Point(239, 250);
             this.btnRaízCuadrada.Name = "btnRaízCuadrada";
             this.btnRaízCuadrada.Size = new System.Drawing.Size(70, 70);
             this.btnRaízCuadrada.TabIndex = 13;
@@ -240,7 +242,7 @@
             // btnDividir
             // 
             this.btnDividir.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDividir.Location = new System.Drawing.Point(238, 309);
+            this.btnDividir.Location = new System.Drawing.Point(238, 326);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(70, 70);
             this.btnDividir.TabIndex = 17;
@@ -252,7 +254,7 @@
             // btnRestar
             // 
             this.btnRestar.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRestar.Location = new System.Drawing.Point(315, 385);
+            this.btnRestar.Location = new System.Drawing.Point(315, 402);
             this.btnRestar.Name = "btnRestar";
             this.btnRestar.Size = new System.Drawing.Size(70, 70);
             this.btnRestar.TabIndex = 16;
@@ -264,7 +266,7 @@
             // btnResultado
             // 
             this.btnResultado.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnResultado.Location = new System.Drawing.Point(239, 461);
+            this.btnResultado.Location = new System.Drawing.Point(239, 552);
             this.btnResultado.Name = "btnResultado";
             this.btnResultado.Size = new System.Drawing.Size(146, 70);
             this.btnResultado.TabIndex = 19;
@@ -275,7 +277,7 @@
             // btnSumar
             // 
             this.btnSumar.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSumar.Location = new System.Drawing.Point(238, 385);
+            this.btnSumar.Location = new System.Drawing.Point(238, 402);
             this.btnSumar.Name = "btnSumar";
             this.btnSumar.Size = new System.Drawing.Size(70, 70);
             this.btnSumar.TabIndex = 18;
@@ -287,7 +289,7 @@
             // btnPunto
             // 
             this.btnPunto.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPunto.Location = new System.Drawing.Point(163, 537);
+            this.btnPunto.Location = new System.Drawing.Point(163, 554);
             this.btnPunto.Name = "btnPunto";
             this.btnPunto.Size = new System.Drawing.Size(70, 70);
             this.btnPunto.TabIndex = 22;
@@ -298,7 +300,7 @@
             // btnCero
             // 
             this.btnCero.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCero.Location = new System.Drawing.Point(87, 537);
+            this.btnCero.Location = new System.Drawing.Point(87, 554);
             this.btnCero.Name = "btnCero";
             this.btnCero.Size = new System.Drawing.Size(70, 70);
             this.btnCero.TabIndex = 21;
@@ -309,7 +311,7 @@
             // btnSigno
             // 
             this.btnSigno.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSigno.Location = new System.Drawing.Point(11, 537);
+            this.btnSigno.Location = new System.Drawing.Point(11, 554);
             this.btnSigno.Name = "btnSigno";
             this.btnSigno.Size = new System.Drawing.Size(70, 70);
             this.btnSigno.TabIndex = 20;
@@ -320,7 +322,7 @@
             // txtUno
             // 
             this.txtUno.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUno.Location = new System.Drawing.Point(9, 7);
+            this.txtUno.Location = new System.Drawing.Point(7, 6);
             this.txtUno.MaxLength = 18;
             this.txtUno.Multiline = true;
             this.txtUno.Name = "txtUno";
@@ -332,7 +334,7 @@
             // txtOperador
             // 
             this.txtOperador.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtOperador.Location = new System.Drawing.Point(9, 59);
+            this.txtOperador.Location = new System.Drawing.Point(7, 67);
             this.txtOperador.MaxLength = 18;
             this.txtOperador.Multiline = true;
             this.txtOperador.Name = "txtOperador";
@@ -345,7 +347,7 @@
             // 
             this.txtDos.BackColor = System.Drawing.SystemColors.Control;
             this.txtDos.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDos.Location = new System.Drawing.Point(9, 111);
+            this.txtDos.Location = new System.Drawing.Point(7, 128);
             this.txtDos.MaxLength = 18;
             this.txtDos.Multiline = true;
             this.txtDos.Name = "txtDos";
@@ -354,11 +356,37 @@
             this.txtDos.TabIndex = 25;
             this.txtDos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // btnPitágoras
+            // 
+            this.btnPitágoras.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPitágoras.Location = new System.Drawing.Point(239, 478);
+            this.btnPitágoras.Name = "btnPitágoras";
+            this.btnPitágoras.Size = new System.Drawing.Size(70, 70);
+            this.btnPitágoras.TabIndex = 26;
+            this.btnPitágoras.Tag = "H";
+            this.btnPitágoras.Text = "H";
+            this.btnPitágoras.UseVisualStyleBackColor = true;
+            this.btnPitágoras.Click += new System.EventHandler(this.ClickOperador);
+            // 
+            // btnLog
+            // 
+            this.btnLog.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLog.Location = new System.Drawing.Point(315, 478);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(70, 70);
+            this.btnLog.TabIndex = 27;
+            this.btnLog.Tag = "L";
+            this.btnLog.Text = "Log";
+            this.btnLog.UseVisualStyleBackColor = true;
+            this.btnLog.Click += new System.EventHandler(this.ClickOperador);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 612);
+            this.ClientSize = new System.Drawing.Size(393, 633);
+            this.Controls.Add(this.btnLog);
+            this.Controls.Add(this.btnPitágoras);
             this.Controls.Add(this.txtDos);
             this.Controls.Add(this.txtOperador);
             this.Controls.Add(this.txtUno);
@@ -422,5 +450,7 @@
         private TextBox txtUno;
         private TextBox txtOperador;
         private TextBox txtDos;
+        private Button btnPitágoras;
+        private Button btnLog;
     }
 }
